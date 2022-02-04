@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int main (void) {
+int main(void)
+{
 	char letra;
-
-	for(letra = 'a' ; letra <= 'z' ; letra++) 
+	for (letra = 'a'; letra <= 'z' ; letra++)
 	putchar(letra);
-	putchar('\n');	        
-         return(0);
+	putchar('\n');
+	return (0);
 }
