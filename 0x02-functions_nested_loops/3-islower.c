@@ -1,14 +1,20 @@
 #include "main.h"
+#include <ctype.h>
 
 /**
- * main - check the code.
- *
- * Return: Always 0.
- */
-int _islower (int c)
+ * *_islower - check for lowercases
+ * * @c : int
+ * * Return: Always 0.
+ * */
+
+int _islower(int c)
 {
-	if (c > 96 && c < 123)
+	if (c >= 'a')
+	{
 		return (1);
+	}
 	else
+	{
 		return (0);
+	}
 }
