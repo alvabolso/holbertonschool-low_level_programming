@@ -6,7 +6,7 @@
  * *_isalpha - check the code.
  * * @c : input
  * * Return: Always 0.
- * */
+ */
 int _isalpha(int c)
 {
 	if (c >= 'A' && c <= 'Z')
