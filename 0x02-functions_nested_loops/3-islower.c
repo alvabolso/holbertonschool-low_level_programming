@@ -5,7 +5,7 @@
  * *_islower - check for lowercases
  * * @c : int
  * * Return: Always 0.
- * */
+ */
 
 int _islower(int c)
 {
