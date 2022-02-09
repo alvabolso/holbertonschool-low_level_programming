@@ -1,29 +1,26 @@
 #include "main.h"
 
 /**
- *  * print_square - prints a n side size # square
- *   * @size: length of side
- *    * Description: Same as above
- *     *
- *      * Return: void
+ *print_square - square
+ *@size : size of square input
  */
 void print_square(int size)
 {
-	int fil;
-	int col;
-
-	if (size > 0)
-	{
-		for (fil = 0; fil < size; fil++)
-		{
-			for (col = 0; col < size; col++)
-			{
-																			_putchar('#');
-																		}
-																		_putchar('\n');
-		}
-	}
-	else
-	{
-		_putchar('\n');
-	}
+int lines;
+int hash;
+if (size <= 0)
+{
+_putchar('\n');
+}
+else
+{
+for (lines = 0; lines < size; lines++)
+{
+for (hash = 0; hash < size; hash++)
+{
+_putchar('#');
+}
+_putchar('\n');
+}
+}
+}
