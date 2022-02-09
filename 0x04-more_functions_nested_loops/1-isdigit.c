@@ -9,9 +9,9 @@
  *    
  *
  */
-int _isdigit(int c)
+int _isdigit(int letra)
 {
-		if (c >= '0' && c <= '9')
+		if (letra >= '0' && letra <= '9')
 		{
 		return (1);
 		}
