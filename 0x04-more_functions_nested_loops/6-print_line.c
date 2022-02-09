@@ -12,8 +12,8 @@ void print_line(int n)
 	int linea = 0;
 
 	while (linea < n)
-	{ 
-	_putchar ('_');
+	{
+		_putchar ('_');
 	linea++;
 	}
 	_putchar ('\n');
