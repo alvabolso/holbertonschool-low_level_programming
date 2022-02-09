@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- *  * _isupper - Prints 1 if the letter is uppercase
- *   * and if not print 0
- *    * @letra: letra is an ASCII character
- *     * Description: Same as above
- *      *
+ * _isdigit - Prints 1 if its a digit
+ * and if not print 0
+ * @letra: digit is an ASCII character
+ * Description: Same as above
  *
+ * Return: 1 if digit, 0 if not
  */
 int _isdigit(int letra)
 {
