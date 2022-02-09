@@ -1,25 +1,28 @@
 #include "main.h"
-
 /**
- * print_numbers - Prints 0-9 numbers
- * Description: Same as above
- *
- * Return: void
+ *more_numbers - print 0 to 9
  */
 void more_numbers(void)
 {
-	int counter = 0;
-	int num1 = 0;
-/*	int num2 = 0;
-*/
-	while (counter < 10)
+	int i;
+	int n;
+	int print;
+
+	for (i = 0; i < 10; i++)
 	{
-
-	for (num1 = 0; num1 < 14 ; num1++)
-	_putchar(num1 % 10 + '0');
-	_putchar('\n');
+		for (n = 0; n <= 14; n++)
+		{
+			if (n > 9)
+			{
+				_putchar('1');
+				print = n % 10;
+			}
+			else
+			{
+				print = n;
+			}
+			_putchar(print + '0');
+		}
+		_putchar('\n');
 	}
-	
-	counter = (counter + 1);
-
-	}
+}
