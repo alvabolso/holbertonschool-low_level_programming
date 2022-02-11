@@ -8,12 +8,12 @@ include "main.h"
 
 int _strlen(char *s)
 {
-	int l = 0;
+	int le = 0;
 
-	while (s[l] != '\0')
+	while (s[le] != '\0')
 	{
-		l++;
+		le++;
 	}
 
-	return (l);
+	return (le);
 }
