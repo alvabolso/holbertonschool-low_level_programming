@@ -1,18 +1,37 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- *  * main - check the code
- *   *
- *    * Return: Always 0.
+ * _strspn - gets the length of a prefix substring
+ * @s: string
+ * @accept: bytes composing prefix
+ * Return: bytes in the initial segment of s which
+ * consist only of bytes from accept
  */
+
 unsigned int _strspn(char *s, char *accept)
 {
-	int x;
+	unsigned int cont = 0;
+	unsigned int antes = 0;
+	int i = 0;
 	int j;
 
-	for( x = 0; accept[x] == s[j]; x++)
-		for( j = 0; 
-
-		return (x);
+	while (*(s + i) != '\0')
+	{
+		j = 0;
+		antes = cont;
+		while (*(accept + j) != '\0')
+		{
+			if (*(s + i) == *(accept + j))
+			{
+				cont++;
+			}
+			j++;
+		}
+		if (antes == cont)
+		{
+			break;
+		}
+		i++;
+	}
+return (cont);
 }
