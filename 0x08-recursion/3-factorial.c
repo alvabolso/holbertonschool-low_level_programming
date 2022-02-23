@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- ** _puts_recursion - prints a string, followed by a new line.
- **
+ ** factorial - returns the factorial of a given number..
+ ** Return: return
  ** @n: variable
  */
 int factorial(int n)
