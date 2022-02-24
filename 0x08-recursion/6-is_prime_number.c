@@ -5,6 +5,9 @@
  * @n: number to check
  * @divisor: divisor
  * Return: prime number or not
+ * is_prime_number - check if n is a prime number, it use prime_number function
+ * @n: number to check
+ * Return: 1 if it is prime, 0 if it is not
  */
 
 int prime_number(int n, int divisor)
