@@ -4,8 +4,8 @@
  * prime_number - auxiliar function for is_prime_number
  * @n: number to check
  * @divisor: divisor
- * Return: prime number or not */
-
+ * Return: prime number or not
+ */
 int prime_number(int n, int divisor)
 {
 	if (n == divisor)
