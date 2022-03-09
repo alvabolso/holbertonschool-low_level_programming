@@ -1,5 +1,5 @@
 /**
-p_add - add
+ * op_add - add
  * @a: num 1
  * @b: num 2
  * Return: sum
