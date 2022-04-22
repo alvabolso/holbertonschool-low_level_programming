@@ -5,7 +5,7 @@
  *
  *Return: end program
  */
-nt main(void)
+int main(void)
 {
 	int d, j, k, s;
 
