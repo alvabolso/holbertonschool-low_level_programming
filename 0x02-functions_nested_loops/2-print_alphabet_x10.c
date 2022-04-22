@@ -1,24 +1,19 @@
 #include "main.h"
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{	
-	int i = 0;
-	char letras;
 
-	while (i <= 10)
+/**
+ * print_alphabet_x10
+ *
+ * Return: 0
+ **/
+void print_alphabet_x10(void)
+{
+	int i = 0;
+	char letra;
+
+	while (i++ <= 9)
 	{
-		letras = 'a';
-		while (letras <= 'z')
-		{
-		_putchar(letras);
-		letras ++;
-		}
-		_putchar ('\n');
-		i++;
+		for (letra = 'a'; letra <= 'z'; letra++)
+		_putchar(letra);
+		_putchar('\n');
 	}
-		return (0);
 }
